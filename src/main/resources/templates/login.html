@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" th:href="@{css/login.css}" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" media="all" href="../static/css/SideNavPushOpacity.css" th:href="@{css/SideNavPushOpacity.css}" />
+	<link rel="stylesheet" type="text/css" media="all" href="../static/css/FixedHeader.css" th:href="@{css/FixedHeader.css}" />
+
+	<style>
+		body {
+			background: #050505;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<script src="js/SideNavPushOpacity.js"></script>
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="/index">Home</a>
+		<a href="#">Riders</a>
+		<a href="/mtb">MTB</a>
+		<a href="/bmx">BMX</a>
+		<a href="/wake">Wake</a>
+		<a href="/surf">Surf</a>
+		<a href="/street">Street</a>
+	</div>
+
+
+	<div class="fixed-navbar">
+		<span style="font-size:30px;cursor:pointer;color:white;padding:10px 10px 10px 10px;" onclick="openNav()">&#9776;</span>
+	</div>
+
+
+	<div class="loginBox">
+		<div class="container">
+
+			<form th:action="@{/login}" method="POST" class="form-signin">
+				<h2 class="form-signin-heading" th:text="Welcome"></h2>
+				<br/>
+
+				<input type="text" id="email" name="email"  th:placeholder="Email"
+					   class="form-control" /> <br/>
+				<input type="password"  th:placeholder="Password"
+					   id="password" name="password" class="form-control" /> <br />
+
+				<div align="center" th:if="${param.error}">
+					<p style="font-size: 20; color: #FF1C19;">Email or Password invalid, please verify</p>
+				</div>
+				<button class="btn btn-lg btn-info btn-block" name="Submit" value="Login" type="Submit" th:text="Login"></button>
+
+				<div align="center" style="margin-top: 40px; color: #5bc0de;">
+					<a href="/registration">Not a member yet?</a>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

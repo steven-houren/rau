@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/custom.css" th:href="@{css/custom.css}" />
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/SideNavPushOpacity.css" th:href="@{css/SideNavPushOpacity.css}" />
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/FixedHeader.css" th:href="@{css/FixedHeader.css}" />
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/ParallaxBackground.css" th:href="@{css/ParallaxBackground.css}" />
+
+    <title>Index</title>
+
+</head>
+<body>
+
+<script src="js/SideNavPushOpacity.js"></script>
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/index">Home</a>
+    <a href="#">Riders</a>
+    <a href="/mtb">MTB</a>
+    <a href="/bmx">BMX</a>
+    <a href="/wake">Wake</a>
+    <a href="/surf">Surf</a>
+    <a href="/street">Street</a>
+</div>
+
+<div class="fixed-navbar">
+    <span style="font-size:30px;cursor:pointer;color:white;padding:10px 10px 10px 10px;" onclick="openNav()">&#9776;</span>
+    <a href="/login">Login</a>
+</div>
+
+
+<div id="box1">
+    <h1 style="color: #111111">RAU</h1>
+</div>
+
+<div id="box7">
+    <div class="titleBox">
+        <ul>
+            <li>
+                <h2><a href="#">Boarder Corner</a></h2>
+            </li>
+            <li>
+                <h5><a href="#">Competitions</a></h5>
+            </li>
+            <li>
+                <h5><a href="#">Riders</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div class="RightSideBox">
+
+        <div class="RightSideBoxTitle">
+            <a href="#">Rider Of The Hour</a>
+        </div>
+
+        <div class="RightSideBoxPic">
+            <a href="#"><img src="images/Snowboarders/ShaunWhiteProfile.jpg" /></a>
+
+        </div>
+
+        <div class="RightSideBoxName">
+            <a href="#">Shaun White</a>
+        </div>
+    </div>
+
+    <div class="videoBox">
+        <div class="currentVideos">
+
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/p18UNXceDyI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/nWvRn7oc6ww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/HvW54UwPW4c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="box2">
+    <div class="titleBox">
+        <ul>
+            <li>
+                <h2><a href="surfhome">Surf Shack</a></h2>
+            </li>
+            <li>
+                <h5><a href="#">Competitions</a></h5>
+            </li>
+            <li>
+                <h5><a href="#">Riders</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div class="RightSideBox">
+
+        <div class="RightSideBoxTitle">
+            <a href="#">Rider Of The Hour</a>
+        </div>
+
+        <div class="RightSideBoxPic">
+            <a href="#"><img src="images/Surfers/RobMachadoProfile.jpg" /></a>
+        </div>
+
+        <div class="RightSideBoxName">
+            <a href="#">Rob Machado</a>
+        </div>
+    </div>
+
+
+    <div class="videoBox">
+        <div class="currentVideos">
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/xkuM8izh5R0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/6z0QHtVRoQ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/FvJjNVP6ORA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div id="box3">
+    <div class="titleBox">
+        <ul>
+            <li>
+                <h2><a href="#">MTB</a></h2>
+            </li>
+            <li>
+                <h5><a href="#">Competitions</a></h5>
+            </li>
+            <li>
+                <h5><a href="#">Riders</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div class="RightSideBox">
+
+        <div class="RightSideBoxTitle">
+            <a href="#">Rider Of The Hour</a>
+        </div>
+
+        <div class="RightSideBoxPic">
+            <a href="#"><img src="images/mtbRiders/FabioWibmerProfile.jpg" /></a>
+        </div>
+
+        <div class="RightSideBoxName">
+            <a href="#">Fabio Wibmer</a>
+        </div>
+    </div>
+
+    <div class="videoBox">
+        <div class="currentVideos">
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/-jDKJT2dDZQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/p2xBsiNca7c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/x4LRLFGrliw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="box5">
+
+    <div class="titleBox">
+        <ul>
+            <li>
+                <h2><a href="#">BMX</a></h2>
+            </li>
+            <li>
+                <h5><a href="#">Competitions</a></h5>
+            </li>
+            <li>
+                <h5><a href="#">Riders</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div class="RightSideBox">
+
+        <div class="RightSideBoxTitle">
+            <a href="#">Rider Of The Hour</a>
+        </div>
+
+        <div class="RightSideBoxPic">
+            <a href="#"><img src="images/bmxRiders/DannyMacAskillProfile.jpg" /></a>
+        </div>
+
+        <div class="RightSideBoxName">
+            <a href="#">Danny MacAskill</a>
+        </div>
+    </div>
+
+    <div class="videoBox">
+        <div class="currentVideos">
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/Sv3xVOs7_No" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/DY8Gqc1oMmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/LNcV_-CjcSI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<div id="box6">
+    <div class="titleBox">
+        <ul>
+            <li>
+                <h2><a href="#">On The Street</a></h2>
+            </li>
+            <li>
+                <h5><a href="#">Competitions</a></h5>
+            </li>
+            <li>
+                <h5><a href="#">Riders</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div class="RightSideBox">
+
+        <div class="RightSideBoxTitle">
+            <a href="#">Rider Of The Hour</a>
+        </div>
+
+        <div class="RightSideBoxPic">
+            <a href="#"><img src="images/Skaters/NyjahHoustonProfile.jpg" /></a>
+        </div>
+
+        <div class="RightSideBoxName">
+            <a href="#">Nyjah Houston</a>
+        </div>
+    </div>
+
+    <div class="videoBox">
+        <div class="currentVideos">
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/OnG6gF7P-Xk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/woiigfrANUM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/BBSYoyy6TKY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+        </div>
+    </div>
+
+
+</div>
+
+<div id="box8">
+    <div class="titleBox">
+        <ul>
+            <li>
+                <h2><a href="#">On The Wake</a></h2>
+            </li>
+            <li>
+                <h5><a href="#">Competitions</a></h5>
+            </li>
+            <li>
+                <h5><a href="#">Riders</a></h5>
+            </li>
+        </ul>
+    </div>
+
+    <div class="RightSideBox">
+
+        <div class="RightSideBoxTitle">
+            <a href="#">Rider Of The Hour</a>
+        </div>
+
+        <div class="RightSideBoxPic">
+            <a href="#"><img src="images/Wakeboarders/MelissaMarquardtProfile.jpg" /></a>
+        </div>
+
+        <div class="RightSideBoxName">
+            <a href="#">Melissa Marquardt</a>
+        </div>
+    </div>
+
+    <div class="videoBox">
+        <div class="currentVideos">
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/1Zgse6PyE2k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/4xd28yKPnUk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+            <iframe class="embeddedVideo" src="https://www.youtube.com/embed/R3lrN_D-9QY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen = "1"></iframe>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

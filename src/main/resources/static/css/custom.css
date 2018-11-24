@@ -1,0 +1,121 @@
+body{
+    background-color: #151515;
+    color: white;
+}
+
+.videoBox{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 500px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.currentVideos {
+    margin: 0 auto;
+    padding: 30px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+
+.embeddedVideo {
+    width: 25%;
+    height: 35%;
+    padding: 5%;
+
+}
+
+
+
+.titleBox{
+
+
+    /*margin-top: 100px;*/
+    /*margin-left: 100px;*/
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    float: left;
+    padding: 0px 50px 0px 20px;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.titleBox a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.titleBox a hover {
+    color: cyan;
+}
+
+.RightSideBox{
+
+
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: Right;
+    padding: 20px 20px 20px 20px;
+
+    border-radius: 5px 5px 5px 5px;
+
+
+}
+
+.RightSideBoxTitle {
+    margin: 0 auto;
+    float: top;
+    font-family: "Chalkduster";
+    text-align: center;
+    padding: 10px;
+
+}
+
+.RightSideBoxPic {
+
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+    align-content: center;
+    font-family: "Chalkduster";
+
+}
+
+.RightSideBoxPic img{
+    height: 300px;
+    width: 200px;
+}
+
+.RightSideBoxName {
+    margin: 0 auto;
+    text-align: center;
+    float: bottom;
+    font-family: "Chalkduster";
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.RightSideBox a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.RightSideBox a hover {
+    color: cyan;
+}

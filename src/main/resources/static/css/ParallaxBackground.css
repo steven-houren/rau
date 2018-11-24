@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#box1
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/GirlHandHoldSnowboardMountainView.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/surfer-wave-sunset-the-indian-ocean-390051.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/utah-mountain-biking-bike-biking-71104.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box4
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/FullMoonSkiClimber.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box5
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/bmxTailWhipSunset.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box6
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/Skate_HandPlantSunset.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box7
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/LacingUpSnowboarder.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box8
+{
+    height: 125vh;
+    width: 100%;
+    background-image: url(Backgrounds/WakeSunsetBackFlip.png);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#boxBlack
+{
+    height: 125vh;
+    width: 100%;
+    background-color: #151515;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: "Chalkduster";
+    font-size: 300px;
+    color: White;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h2{
+    font-size: 45px;
+    font-family: "Chalkduster";
+
+}
+
+h3{
+    font-size: 40px;
+    font-family: "Chalkduster";
+
+}
+
+h4{
+    font-size: 35px;
+    font-family: "Chalkduster";
+
+}
+
+h5{
+    font-size: 30px;
+    font-family: "Chalkduster";
+
+}
+
+h6{
+    font-size: 25px;
+    font-family: "Chalkduster";
+}
