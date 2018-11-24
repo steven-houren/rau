@@ -56,7 +56,7 @@ public class MainController {
 			modelAndView.setViewName("registration");
 		} else {
 			userService.saveUser(user);
-			modelAndView.addObject("successMessage", "User has been registered successfully");
+			modelAndView.addObject("successMessage", "User has been registered successfully.  Please navigate back to the login page and login with this user.");
 			modelAndView.addObject("user", new User());
 			modelAndView.setViewName("registration");
 			

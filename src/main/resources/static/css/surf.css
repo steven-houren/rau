@@ -1,0 +1,8 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(Backgrounds/surfer-wave-sunset-the-indian-ocean-390051.jpeg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
