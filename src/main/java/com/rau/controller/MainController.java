@@ -66,6 +66,12 @@ public class MainController {
 
     @RequestMapping(value={"/surf"}, method = RequestMethod.GET)
     public ModelAndView surf(){
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		User user = userService.findUserByEmail(auth.getName());
+
+
+
+
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("surf");
         return modelAndView;
@@ -112,6 +118,7 @@ public class MainController {
 		ModelAndView modelAndView = new ModelAndView();
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		User user = userService.findUserByEmail(auth.getName());
+		modelAndView.addObject("userID", "User ID: " + user.getId());
 		modelAndView.addObject("userName", "Welcome " + user.getName() + " " + user.getLastName() + " (" + user.getEmail() + ")");
 		modelAndView.addObject("loginMessage","You have successfully logged in!");
 		modelAndView.setViewName("admin/home");

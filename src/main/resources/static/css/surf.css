@@ -6,3 +6,180 @@ body {
     display: table;
     background-attachment: fixed;
 }
+
+.contentBox{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 500px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+
+#boxTransparent
+{
+    height: 175vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#boxBackground
+{
+
+    margin: 0 auto;
+    height: 125vh;
+    width: 100%;
+    /*background-color: rgba(0, 255, 255, 0.35);*/
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#boxBottom {
+
+    margin: 0 auto;
+    height: 75vh;
+    width: 100%;
+    /*background-color: rgba(0, 255, 255, 0.35);*/
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+
+}
+
+#spotBox
+{
+
+    margin: 0 auto;
+    height: 75vh;
+    width: 100%;
+    /*background-color: rgba(0, 255, 255, 0.35);*/
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+
+.heading {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.centerContent {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+/*.parent {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.child {*/
+    /*display: inline-block;*/
+/*}*/
+
+
+.AthleteBox {
+
+
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: Right;
+    padding: 20px 20px 20px 20px;
+
+    border-radius: 5px 5px 5px 5px;
+
+
+}
+
+.RightSideBox{
+
+
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: Right;
+    padding: 20px 20px 20px 20px;
+
+    border-radius: 5px 5px 5px 5px;
+
+
+}
+
+
+.RightSideBoxTitle {
+    margin: 0 auto;
+    float: top;
+    font-family: "Chalkduster";
+    text-align: center;
+    padding: 10px;
+
+}
+
+.RightSideBoxPic {
+
+    height: 300px;
+    width: 200px;
+    margin: 0 auto;
+    align-content: center;
+    font-family: "Chalkduster";
+
+}
+
+.GearBox {
+    margin: 0 auto;
+    align-content: center;
+    font-family: "Chalkduster"
+}
+
+.GearBox img {
+    height: 250px;
+    width: 300px;
+    margin: 0 auto;
+    align-content: center;
+
+}
+
+.RightSideBoxPic img{
+    height: 300px;
+    width: 200px;
+}
+
+.RightSideBoxName {
+    margin: 0 auto;
+    text-align: center;
+    float: bottom;
+    font-family: "Chalkduster";
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.AthleteBox a {
+    text-decoration: none;
+
+    color: white;
+}
+
+.AthleteBox a hover {
+    color: cyan;
+}
+
+.centerText {
+    text-align: center;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: "Chalkduster";
+    color: black;
+}
