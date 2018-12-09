@@ -18,7 +18,7 @@ body {
 
 #boxTransparent
 {
-    height: 175vh;
+    height: 125vh;
     width: 100%;
     background-size: cover;
     display: table;
@@ -29,7 +29,7 @@ body {
 {
 
     margin: 0 auto;
-    height: 125vh;
+    height: 100vh;
     width: 100%;
     /*background-color: rgba(0, 255, 255, 0.35);*/
     background-size: cover;
@@ -40,7 +40,7 @@ body {
 #boxBottom {
 
     margin: 0 auto;
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     /*background-color: rgba(0, 255, 255, 0.35);*/
     background-size: cover;
@@ -53,7 +53,7 @@ body {
 {
 
     margin: 0 auto;
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     /*background-color: rgba(0, 255, 255, 0.35);*/
     background-size: cover;
@@ -75,13 +75,13 @@ body {
 }
 
 /*.parent {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
 /*}*/
 
 /*.child {*/
-    /*display: inline-block;*/
+/*display: inline-block;*/
 /*}*/
 
 
@@ -182,4 +182,9 @@ h2 {
     font-size: 45px;
     font-family: "Chalkduster";
     color: black;
+}
+
+.videoBoxCenterContent {
+    margin: 0 auto;
+    width: 1200px;
 }
